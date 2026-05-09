@@ -1,7 +1,8 @@
 # Theory: Numerical Solutions to the Time-Dependent Schrödinger Equation
 
-> **Reference:** Qijing Zheng, *Numerical Solutions to the Time-dependent Schrödinger Equation*, USTC (2022).  
-> [http://staff.ustc.edu.cn/~zqj/posts/Numerical_TDSE/](http://staff.ustc.edu.cn/~zqj/posts/Numerical_TDSE/)
+> **Reference:** Introduction to Quantum Mechanics, 3rd ed., [Cambridge University Press](https://www.cambridge.org/core/books/introduction-to-quantum-mechanics/990799CA07A83FC5312402AF6860311E?utm_source=chatgpt.com) (2018). ([perlego.com][1])
+
+[1]: https://www.perlego.com/book/4220295/introduction-to-quantum-mechanics-pdf?utm_source=chatgpt.com "[PDF] Introduction to Quantum Mechanics by David J. Griffiths, 3rd edition | 9781107189638, 9781108103145"
 
 ---
 
@@ -266,7 +267,7 @@ The distinction matters once the wavepacket reaches the boundary. CN/RK4/Chebysh
 
 | Property | CN | RK4 | Chebyshev | Lanczos | Split-Operator |
 |---|---|---|---|---|---|
-| Unitarity / norm conservation | ✅ Exact | ❌ Approximate | ✅ Near-exact | ✅ Near-exact | ✅ Exact |
+| Unitarity / norm conservation | Exact | Approximate | Near-exact | Near-exact | Exact |
 | Time-step constraint | Moderate | Strict | Moderate | Large | None |
 | Accuracy order | 2nd | 4th | Spectral | Spectral | 2nd |
 | Cost per step | Sparse solve | Matrix–vector × 4 | Matrix–vector × N | Matrix–vector × M | 2 FFTs |
