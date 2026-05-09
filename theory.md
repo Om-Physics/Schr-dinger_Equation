@@ -1,5 +1,6 @@
 # Theory: Numerical Solutions to the Time-Dependent Schrödinger Equation
-Q. Introduction to Quantum Mechanics, 3rd ed., [Cambridge University Press](https://www.cambridge.org/core/books/introduction-to-quantum-mechanics/990799CA07A83FC5312402AF6860311E?utm_source=chatgpt.com) (2018). ([perlego.com][1])
+
+**Reference:** Introduction to Quantum Mechanics, 3rd ed., [Cambridge University Press](https://www.cambridge.org/core/books/introduction-to-quantum-mechanics/990799CA07A83FC5312402AF6860311E?utm_source=chatgpt.com) (2018). ([perlego.com][1])
 
 [1]: https://www.perlego.com/book/4220295/introduction-to-quantum-mechanics-pdf?utm_source=chatgpt.com "[PDF] Introduction to Quantum Mechanics by David J. Griffiths, 3rd edition | 9781107189638, 9781108103145"
 
