@@ -41,11 +41,11 @@ Its formal solution involves applying the unitary time-evolution operator $\math
 
 | # | Method | Module | Boundary Condition | Norm Conservation | Best For |
 |---|--------|--------|--------------------|-------------------|----------|
-| 1 | **Crank–Nicolson** | `CrankNicolson` | Zero (Dirichlet) | ✅ Exact | General 1-D problems |
-| 2 | **4th-order Runge–Kutta** | `RungeKutta` | Zero (Dirichlet) | ⚠️ Approximate | Benchmarking / small Δt |
-| 3 | **Chebyshev Expansion** | `ChebyshevPoly` | Zero (Dirichlet) | ✅ Near-exact | High-accuracy spectral work |
-| 4 | **Lanczos / Krylov** | `Lanczos` | Zero (Dirichlet) | ✅ Near-exact | Large time steps (M controls accuracy) |
-| 5 | **Split-Operator (FFT)** | `SplitOperatorKin` | Periodic | ✅ Exact | 2-D / 3-D; unconditionally stable |
+| 1 | **Crank–Nicolson** | `CrankNicolson` | Zero (Dirichlet) | Exact | General 1-D problems |
+| 2 | **4th-order Runge–Kutta** | `RungeKutta` | Zero (Dirichlet) | Approximate | Benchmarking / small Δt |
+| 3 | **Chebyshev Expansion** | `ChebyshevPoly` | Zero (Dirichlet) | Near-exact | High-accuracy spectral work |
+| 4 | **Lanczos / Krylov** | `Lanczos` | Zero (Dirichlet) | Near-exact | Large time steps (M controls accuracy) |
+| 5 | **Split-Operator (FFT)** | `SplitOperatorKin` | Periodic | Exact | 2-D / 3-D; unconditionally stable |
 
 ---
 
@@ -241,7 +241,7 @@ Crank–Nicolson, Chebyshev, Lanczos, and Split-Operator all conserve the norm t
 
 ## References
 
-1. Q. Zheng, *Numerical Solutions to the Time-dependent Schrödinger Equation*, USTC (2022). [Link](http://staff.ustc.edu.cn/~zqj/posts/Numerical_TDSE/)
+1. Introduction to Quantum Mechanics, 3rd ed., [Cambridge University Press](https://www.cambridge.org/core/books/introduction-to-quantum-mechanics/990799CA07A83FC5312402AF6860311E?utm_source=chatgpt.com) (2018). ([perlego.com][1])
 2. Crank, J.; Nicolson, P. (1947). *Proc. Camb. Phil. Soc.* **43**: 50–67.
 3. Tal-Ezer, H.; Kosloff, R. (1984). *J. Chem. Phys.* **81**, 3967.
 4. Park, T. J.; Light, J. C. (1986). *J. Chem. Phys.* **85**, 5870.
